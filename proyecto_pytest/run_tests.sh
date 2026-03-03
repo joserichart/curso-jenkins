@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "activando el entorno virtual"
-
+python3 -m venv venv
 source venv/Scripts/activate
 
 echo "instalando dependencias"

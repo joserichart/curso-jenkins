@@ -11,7 +11,7 @@ fi
 # Activar el entorno virtual correctamente
 if [ -f "venv/bin/activate" ]; then
     source venv/bin/activate
-elseif [ -f "venv/Scripts/activate" ]; then # Para Windows
+elif [ -f "venv/Scripts/activate" ]; then # Para Windows
     source venv/Scripts/activate
 else
     echo " Error: No se pudo activar el entorno virtual"

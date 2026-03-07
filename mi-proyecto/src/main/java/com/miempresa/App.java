@@ -1,0 +1,11 @@
+package com.miempresa;
+
+public class App {
+    public static void main(String[] args) {
+        System.out.println("Hola Mundo desde Maven!");
+    }
+
+    public int sumar(int a, int b){
+        return a+b;
+    }
+}

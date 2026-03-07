@@ -30,7 +30,7 @@ pipeline{
         }
 
         failure{
-            "Este bloque se ejecuta si el pipeline falla"
+            echo "Este bloque se ejecuta si el pipeline falla"
         }
     }
 }
